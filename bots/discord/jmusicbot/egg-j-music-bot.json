@@ -43,7 +43,7 @@
             "default_value": "Change This To Your Discord User ID",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|digits:18"
+            "rules": "required"
         },
         {
             "name": "Bot Prefix",
