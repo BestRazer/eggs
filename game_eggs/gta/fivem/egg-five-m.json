@@ -35,7 +35,7 @@
             "default_value": "",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "required|string|max:33",
+            "rules": "max:33",
             "field_type": "text"
         },
         {
@@ -44,7 +44,7 @@
             "env_variable": "MAX_PLAYERS",
             "default_value": "48",
             "user_viewable": true,
-            "user_editable": false,
+            "user_editable": true,
             "rules": "required|integer|between:1,48",
             "field_type": "text"
         },
@@ -62,7 +62,7 @@
             "name": "fivem version",
             "description": "The fivem version that is to be installed. Invalid versions will default to recommended.\r\n\r\nAn example is `6007-f9c407539e79a33772db3cbf47ab8d5e9d57e7a4`\r\n\r\nYou can get the latest version from here - https:\/\/runtime.fivem.net\/artifacts\/fivem\/build_proot_linux\/master\/",
             "env_variable": "FIVEM_VERSION",
-            "default_value": "recommended",
+            "default_value": "latest",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:50",
@@ -84,7 +84,7 @@
             "env_variable": "TXADMIN_PORT",
             "default_value": "40120",
             "user_viewable": true,
-            "user_editable": false,
+            "user_editable": true,
             "rules": "required|string|max:20",
             "field_type": "text"
         },
